@@ -3,15 +3,15 @@ QS 'R_Stop' { "*+g","*+kd","*+k","*+dd","*+d","*+td","*+t","*+b","*+pd","*+p" }
 QS 'R_Nasal' { "*+ng","*+en","*+n","*+m" }
 QS 'R_Fricative' { "*+dh","*+th","*+jh","*+ch","*+v","*+f","*+z","*+sh","*+s" }
 QS 'R_Liquid' { "*+hh","*+y","*+w","*+r","*+el","*+l" }
-QS 'R_Vowel' { "*+ow","*+iy","*+ey","*+oy","*+ay","*+ur","*+ir","*+ar","*+er","*+ax","*+ah","*+uw","*+aa","*+ao","*+ih","*+eh" }
+QS 'R_Vowel' { "*+ow","*+iy","*+ey","*+oy","*+ay","*+er","*+ax","*+ah","*+uw","*+aa","*+ao","*+ih","*+eh" }
 QS 'R_C-Front' { "*+w","*+v","*+f","*+m","*+b","*+pd","*+p" }
 QS 'R_C-Central' { "*+r","*+el","*+l","*+dh","*+th","*+sh","*+z","*+s","*+n","*+en","*+dd","*+d","*+td","*+t" }
 QS 'R_C-Back' { "*+hh","*+ng","*+g","*+kd","*+k","*+y","*+jh","*+ch","*+sh" }
 QS 'R_V-Front' { "*+eh","*+ih","*+iy" }
-QS 'R_V-Central' { "*+ao","*+ur","*+ir","*+ar","*+er","*+aa","*+eh" }
+QS 'R_V-Central' { "*+ao","*+er","*+aa","*+eh" }
 QS 'R_V-Back' { "*+uh","*+ax","*+aa","*+uw" }
 QS 'R_Front' { "*+eh","*+ih","*+iy","*+w","*+v","*+f","*+m","*+b","*+pd","*+p" }
-QS 'R_Central' { "*+ao","*+ur","*+ir","*+ar","*+er","*+aa","*+eh","*+r","*+el","*+l","*+dh","*+th","*+sh","*+z","*+s","*+n","*+en","*+dd","*+d","*+td","*+t" }
+QS 'R_Central' { "*+ao","*+er","*+aa","*+eh","*+r","*+el","*+l","*+dh","*+th","*+sh","*+z","*+s","*+n","*+en","*+dd","*+d","*+td","*+t" }
 QS 'R_Back' { "*+uh","*+ax","*+uw","*+aa","*+hh","*+ng","*+g","*+kd","*+k","*+y","*+jh","*+ch","*+sh" }
 QS 'R_Fortis' { "*+ch","*+sh","*+s","*+th","*+f","*+kd","*+k","*+td","*+t","*+pd","*+p" }
 QS 'R_Lenis' { "*+jh","*+sh","*+z","*+dh","*+v","*+g","*+dd","*+d","*+b" }
@@ -26,25 +26,25 @@ QS 'R_Strident' { "*+jh","*+ch","*+sh","*+z","*+s" }
 QS 'R_NonStrident' { "*+hh","*+dh","*+th","*+v","*+f" }
 QS 'R_UnStrident' { "*+w","*+y","*+r","*+el","*+l","*+ng","*+g","*+kd","*+k","*+en","*+n","*+dd","*+d","*+td","*+t","*+m","*+b","*+pd","*+p" }
 QS 'R_Glide' { "*+w","*+y","*+r","*+el","*+l","*+hh" }
-QS 'R_Syllabic' { "*+ur","*+ir","*+ar","*+er","*+el","*+l","*+m","*+en" }
+QS 'R_Syllabic' { "*+er","*+el","*+l","*+m","*+en" }
 QS 'R_Unvoiced-Cons' { "*+ch","*+hh","*+th","*+f","*+sh","*+s","*+kd","*+k","*+td","*+t","*+pd","*+p" }
 QS 'R_Voiced-Cons' { "*+z","*+w","*+v","*+r","*+ng","*+en","*+n","*+m","*+el","*+l","*+y","*+g","*+dh","*+dd","*+d","*+b","*+jh" }
 QS 'R_Unvoiced-All' { "*+sil","*+ch","*+hh","*+th","*+f","*+sh","*+s","*+kd","*+k","*+td","*+t","*+pd","*+p" }
 QS 'R_Long' { "*+el","*+l","*+m","*+en","*+uw","*+ao","*+ow","*+aa","*+iy" }
 QS 'R_Short' { "*+uh","*+ax","*+ah","*+oy","*+ay","*+ih","*+aa","*+ey","*+eh" }
-QS 'R_Dipthong' { "*+el","*+l","*+m","*+en","*+ur","*+ir","*+ar","*+er","*+aa","*+oy","*+ay","*+ey" }
-QS 'R_Front-Start' { "*+ur","*+ir","*+ar","*+er","*+aa","*+ey" }
+QS 'R_Dipthong' { "*+el","*+l","*+m","*+en","*+er","*+aa","*+oy","*+ay","*+ey" }
+QS 'R_Front-Start' { "*+er","*+aa","*+ey" }
 QS 'R_Fronting' { "*+oy","*+ey","*+ay" }
 QS 'R_High' { "*+iy","*+ax","*+aa","*+uw","*+ih" }
-QS 'R_Medium' { "*+el","*+l","*+m","*+en","*+eh","*+ax","*+aa","*+ur","*+ir","*+ar","*+er","*+ey" }
+QS 'R_Medium' { "*+el","*+l","*+m","*+en","*+eh","*+ax","*+aa","*+er","*+ey" }
 QS 'R_Low' { "*+oy","*+ao","*+aw","*+aa","*+ay","*+eh" }
 QS 'R_Rounded' { "*+w","*+oy","*+ax","*+aa","*+uw","*+ao" }
-QS 'R_Unrounded' { "*+y","*+r","*+el","*+l","*+hh","*+m","*+en","*+ax","*+ah","*+aw","*+iy","*+ey","*+ay","*+ur","*+ir","*+ar","*+er","*+aa","*+ih","*+eh" }
+QS 'R_Unrounded' { "*+y","*+r","*+el","*+l","*+hh","*+m","*+en","*+ax","*+ah","*+aw","*+iy","*+ey","*+ay","*+er","*+aa","*+ih","*+eh" }
 QS 'R_NonAffricate' { "*+dh","*+th","*+v","*+f","*+z","*+sh","*+s" }
 QS 'R_Affricate' { "*+jh","*+ch" }
 QS 'R_IVowel' { "*+iy","*+ih" }
 QS 'R_EVowel' { "*+ey","*+eh" }
-QS 'R_AVowel' { "*+aw","*+ay","*+ur","*+ir","*+ar","*+er","*+aa","*+eh" }
+QS 'R_AVowel' { "*+aw","*+ay","*+er","*+aa","*+eh" }
 QS 'R_OVowel' { "*+aa","*+oy","*+ao" }
 QS 'R_UVowel' { "*+uw","*+el","*+l","*+m","*+en","*+ax","*+aa" }
 QS 'R_Voiced-Stop' { "*+g","*+dd","*+d","*+b" }
@@ -100,15 +100,15 @@ QS 'L_Stop' { "g-*","kd-*","k-*","dd-*","d-*","td-*","t-*","b-*","pd-*","p-*" }
 QS 'L_Nasal' { "ng-*","en-*","n-*","m-*" }
 QS 'L_Fricative' { "dh-*","th-*","jh-*","ch-*","v-*","f-*","z-*","sh-*","s-*" }
 QS 'L_Liquid' { "hh-*","y-*","w-*","r-*","el-*","l-*" }
-QS 'L_Vowel' { "ow-*","iy-*","ey-*","oy-*","ay-*","ur-*","ir-*","ar-*","er-*","ax-*","ah-*","uw-*","aa-*","ao-*","ih-*","eh-*" }
+QS 'L_Vowel' { "ow-*","iy-*","ey-*","oy-*","ay-*","er-*","ax-*","ah-*","uw-*","aa-*","ao-*","ih-*","eh-*" }
 QS 'L_C-Front' { "w-*","v-*","f-*","m-*","b-*","pd-*","p-*" }
 QS 'L_C-Central' { "r-*","el-*","l-*","dh-*","th-*","sh-*","z-*","s-*","n-*","en-*","dd-*","d-*","td-*","t-*" }
 QS 'L_C-Back' { "hh-*","ng-*","g-*","kd-*","k-*","y-*","jh-*","ch-*","sh-*" }
 QS 'L_V-Front' { "eh-*","ih-*","iy-*" }
-QS 'L_V-Central' { "ao-*","ur-*","ir-*","ar-*","er-*","aa-*","eh-*" }
+QS 'L_V-Central' { "ao-*","er-*","aa-*","eh-*" }
 QS 'L_V-Back' { "uh-*","ax-*","aa-*","uw-*" }
 QS 'L_Front' { "eh-*","ih-*","iy-*","w-*","v-*","f-*","m-*","b-*","pd-*","p-*" }
-QS 'L_Central' { "ao-*","ur-*","ir-*","ar-*","er-*","aa-*","eh-*","r-*","el-*","l-*","dh-*","th-*","sh-*","z-*","s-*","n-*","en-*","dd-*","d-*","td-*","t-*" }
+QS 'L_Central' { "ao-*","er-*","aa-*","eh-*","r-*","el-*","l-*","dh-*","th-*","sh-*","z-*","s-*","n-*","en-*","dd-*","d-*","td-*","t-*" }
 QS 'L_Back' { "uh-*","ax-*","uw-*","aa-*","hh-*","ng-*","g-*","kd-*","k-*","y-*","jh-*","ch-*","sh-*" }
 QS 'L_Fortis' { "ch-*","sh-*","s-*","th-*","f-*","kd-*","k-*","td-*","t-*","pd-*","p-*" }
 QS 'L_Lenis' { "jh-*","sh-*","z-*","dh-*","v-*","g-*","dd-*","d-*","b-*" }
@@ -123,25 +123,25 @@ QS 'L_Strident' { "jh-*","ch-*","sh-*","z-*","s-*" }
 QS 'L_NonStrident' { "hh-*","dh-*","th-*","v-*","f-*" }
 QS 'L_UnStrident' { "w-*","y-*","r-*","el-*","l-*","ng-*","g-*","kd-*","k-*","en-*","n-*","dd-*","d-*","td-*","t-*","m-*","b-*","pd-*","p-*" }
 QS 'L_Glide' { "w-*","y-*","r-*","el-*","l-*","hh-*" }
-QS 'L_Syllabic' { "ur-*","ir-*","ar-*","er-*","el-*","l-*","m-*","en-*" }
+QS 'L_Syllabic' { "er-*","el-*","l-*","m-*","en-*" }
 QS 'L_Unvoiced-Cons' { "ch-*","hh-*","th-*","f-*","sh-*","s-*","kd-*","k-*","td-*","t-*","pd-*","p-*" }
 QS 'L_Voiced-Cons' { "z-*","w-*","v-*","r-*","ng-*","en-*","n-*","m-*","el-*","l-*","y-*","g-*","dh-*","dd-*","d-*","b-*","jh-*" }
 QS 'L_Unvoiced-All' { "sil-*","ch-*","hh-*","th-*","f-*","sh-*","s-*","kd-*","k-*","td-*","t-*","pd-*","p-*" }
 QS 'L_Long' { "el-*","l-*","m-*","en-*","uw-*","ao-*","ow-*","aa-*","iy-*" }
 QS 'L_Short' { "uh-*","ax-*","ah-*","oy-*","ay-*","ih-*","aa-*","ey-*","eh-*" }
-QS 'L_Dipthong' { "el-*","l-*","m-*","en-*","ur-*","ir-*","ar-*","er-*","aa-*","oy-*","ay-*","ey-*" }
-QS 'L_Front-Start' { "ur-*","ir-*","ar-*","er-*","aa-*","ey-*" }
+QS 'L_Dipthong' { "el-*","l-*","m-*","en-*","er-*","aa-*","oy-*","ay-*","ey-*" }
+QS 'L_Front-Start' { "er-*","aa-*","ey-*" }
 QS 'L_Fronting' { "oy-*","ey-*","ay-*" }
 QS 'L_High' { "iy-*","ax-*","aa-*","uw-*","ih-*" }
-QS 'L_Medium' { "el-*","l-*","m-*","en-*","eh-*","ax-*","aa-*","ur-*","ir-*","ar-*","er-*","ey-*" }
+QS 'L_Medium' { "el-*","l-*","m-*","en-*","eh-*","ax-*","aa-*","er-*","ey-*" }
 QS 'L_Low' { "oy-*","ao-*","aw-*","aa-*","ay-*","eh-*" }
 QS 'L_Rounded' { "w-*","oy-*","ax-*","aa-*","uw-*","ao-*" }
-QS 'L_Unrounded' { "y-*","r-*","el-*","l-*","hh-*","m-*","en-*","ax-*","ah-*","aw-*","iy-*","ey-*","ay-*","ur-*","ir-*","ar-*","er-*","aa-*","ih-*","eh-*" }
+QS 'L_Unrounded' { "y-*","r-*","el-*","l-*","hh-*","m-*","en-*","ax-*","ah-*","aw-*","iy-*","ey-*","ay-*","er-*","aa-*","ih-*","eh-*" }
 QS 'L_NonAffricate' { "dh-*","th-*","v-*","f-*","z-*","sh-*","s-*" }
 QS 'L_Affricate' { "jh-*","ch-*" }
 QS 'L_IVowel' { "iy-*","ih-*" }
 QS 'L_EVowel' { "ey-*","eh-*" }
-QS 'L_AVowel' { "aw-*","ay-*","ur-*","ir-*","ar-*","er-*","aa-*","eh-*" }
+QS 'L_AVowel' { "aw-*","ay-*","er-*","aa-*","eh-*" }
 QS 'L_OVowel' { "aa-*","oy-*","ao-*" }
 QS 'L_UVowel' { "uw-*","el-*","l-*","m-*","en-*","ax-*","aa-*" }
 QS 'L_Voiced-Stop' { "g-*","dd-*","d-*","b-*" }
@@ -327,7 +327,7 @@ l[3]
 
 ow[3]
 {
-   0           'L_Front-Fric'  "ST_ow_3_1"  "ST_ow_3_2" 
+   0          'L_NonBoundary'  "ST_ow_3_1"  "ST_ow_3_2" 
 }
 
 n[3]
@@ -445,17 +445,13 @@ ah[4]
    "ST_ah_4_1"
 
 l[4]
-{
-   0                   'L_ao'  "ST_l_4_1"  "ST_l_4_2" 
-}
+   "ST_l_4_1"
 
 ow[4]
    "ST_ow_4_1"
 
 n[4]
-{
-   0          'L_Front-Start'  "ST_n_4_1"  "ST_n_4_2" 
-}
+   "ST_n_4_1"
 
 d[4]
    "ST_d_4_1"
@@ -494,7 +490,9 @@ iy[4]
    "ST_iy_4_1"
 
 v[4]
-   "ST_v_4_1"
+{
+   0                 'L_Long'  "ST_v_4_1"  "ST_v_4_2" 
+}
 
 w[4]
    "ST_w_4_1"
@@ -539,9 +537,7 @@ dh[4]
    "ST_dh_4_1"
 
 ao[4]
-{
-   0               'L_C-Back'  "ST_ao_4_1"  "ST_ao_4_2" 
-}
+   "ST_ao_4_1"
 
 ay[4]
    "ST_ay_4_1"

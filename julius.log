@@ -7,7 +7,7 @@ Stat: check_hmm_restriction: an HMM with several arcs from initial state found: 
 Stat: rdhmmdef: this HMM requires multipath handling at decoding
 Stat: rdhmmdef: no <SID> embedded
 Stat: rdhmmdef: assign SID by the order of appearance
-Stat: init_phmm: defined HMMs:   809
+Stat: init_phmm: defined HMMs:   806
 Stat: init_phmm: loading ascii hmmlist
 Stat: init_phmm: logical names: 24402 in HMMList
 Stat: init_phmm: base phones:    41 used in logical
@@ -172,7 +172,7 @@ Acoustic Model(s)
 [AM00 "_default"]
 
  HMM Info:
-    809 models, 125 states, 125 mpdfs, 125 Gaussians are defined
+    806 models, 123 states, 123 mpdfs, 123 Gaussians are defined
 	      model type = context dependency handling ON
       training parameter = MFCC_N_D_Z_0
 	   vector length = 25
@@ -199,8 +199,8 @@ Language Model(s)
 [LM00 "_default"] type=grammar
 
  DFA grammar info:
-      6 nodes, 6 arcs, 6 terminal(category) symbols
-      category-pair matrix: 32 bytes (736 bytes allocated)
+      8 nodes, 10 arcs, 6 terminal(category) symbols
+      category-pair matrix: 36 bytes (736 bytes allocated)
 
  Vocabulary Info:
         vocabulary size  = 18 words, 52 models
@@ -287,4 +287,4 @@ Notice for feature extraction (01),
 	*         no initial mean is available on startup.          *
 	*************************************************************
 STAT: AD-in thread created
-Warning: strip: sample 0-63 has zero value, stripped
+Warning: strip: sample 0-50 has zero value, stripped
