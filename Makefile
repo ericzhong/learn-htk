@@ -1,6 +1,9 @@
 
-julius:
-	./julius-example.sh
+build:
+	./build.sh
+
+run:
+	julius -input mic -C sample.jconf
 
 clean:
 	rm -rf aligned.mlf hmm* dict dict-tri dlog

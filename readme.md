@@ -1,7 +1,9 @@
 # Run
 
 ```
+export PATH=/your/path/to/htk/bin/:$PATH
 make clean
-make julius
+make build
+make run
 ```
 

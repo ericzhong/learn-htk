@@ -72,5 +72,7 @@ HHEd -B -H hmm12/macros -H hmm12/hmmdefs -M hmm13 tree.hed triphones1
 HERest -C config -I wintri.mlf  -t 250.0 150.0 1000.0 -S train.scp -H hmm13/macros -H hmm13/hmmdefs -M hmm14 tiedlist
 HERest -C config -I wintri.mlf  -t 250.0 150.0 1000.0 -S train.scp -H hmm14/macros -H hmm14/hmmdefs -M hmm15 tiedlist
 
-julius -input mic -C sample.jconf
+echo "Done."
+
+# julius -input mic -C sample.jconf
 
